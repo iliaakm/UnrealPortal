@@ -15,5 +15,5 @@ class UNREALPORTAL_API UPortalBlueprintFunctionLibrary : public UBlueprintFuncti
 	GENERATED_BODY()
 
 	UFUNCTION(BlueprintCallable)
-	static bool IsPortalsOverlapped();
+	static bool IsPortalsOverlapped(AStaticMeshActor* PortalA, AStaticMeshActor* PortalB);
 };
